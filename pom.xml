@@ -4,7 +4,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.cameronstokes</groupId>
-	<artifactId>aws-php</artifactId>
+	<artifactId>aws-drupal</artifactId>
 	<packaging>war</packaging>
 	
 	<name>${artifactId} (war)</name>
@@ -30,6 +30,11 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 			<artifactId>resin</artifactId>
 			<version>4.0.14</version>
 		</dependency>
+		<dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.6</version>
+    </dependency>
 	</dependencies>
 	
 	<repositories>
