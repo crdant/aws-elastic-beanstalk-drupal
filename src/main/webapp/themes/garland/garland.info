@@ -1,16 +1,14 @@
-; $Id: garland.info,v 1.10 2010/11/07 00:27:20 dries Exp $
+; $Id: garland.info,v 1.5 2007/07/01 23:27:32 goba Exp $
 name = Garland
-description = A multi-column theme which can be configured to modify colors and switch between fixed and fluid width layouts.
-package = Core
+description = Tableless, recolorable, multi-column, fluid width theme (default).
 version = VERSION
-core = 7.x
+core = 6.x
+engine = phptemplate
 stylesheets[all][] = style.css
 stylesheets[print][] = print.css
-settings[garland_width] = fluid
 
-; Information added by drupal.org packaging script on January 1, 1970 - 00:00
-version = "7.x-dev"
-core = "7.x"
+; Information added by Acquia.com packaging script
+version = "6.20"
 project = "drupal"
-datestamp = "1297253765"
+acquia = "1"
 

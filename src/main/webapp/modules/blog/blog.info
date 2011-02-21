@@ -1,14 +1,12 @@
-; $Id: blog.info,v 1.12 2010/12/20 19:59:40 webchick Exp $
+; $Id: blog.info,v 1.5 2007/06/08 05:50:53 dries Exp $
 name = Blog
-description = Enables multi-user blogs.
-package = Core
+description = Enables keeping easily and regularly updated user web pages or blogs.
+package = Core - optional
 version = VERSION
-core = 7.x
-files[] = blog.test
+core = 6.x
 
-; Information added by drupal.org packaging script on January 1, 1970 - 00:00
-version = "7.x-dev"
-core = "7.x"
+; Information added by Acquia.com packaging script
+version = "6.20"
 project = "drupal"
-datestamp = "1297253765"
+acquia = "1"
 
