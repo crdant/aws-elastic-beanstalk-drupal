@@ -1,10 +1,10 @@
 I) Introduction 
 ---------------
-This project is meant to show how you can run PHP on Amazon's Elastic Beanstalk service.
+This project is meant to create a working Drupal WAR file based on the Acquia Drupal distribution that's ready to run under Tomcat, and thus be deployed to AWS using Elastic Beanstalk.  It's based on the initial work done by Cameron Stokes in the project that it forks from on github.  
 
 It's setup as a Maven project and uses Quercues, a "100% Java implementation of PHP 5," to run PHP in a Tomcat container.
 
 
 II) Getting Started
 -------------------
-From the project root, run 'mvn package' to create the deployable war file. Once complete, upload to AWS Elastic Beanstalk.
+From the project root, run 'mvn package' to create the deployable war file. Once complete, upload to AWS Elastic Beanstalk.  You'll also need a database, which you can create with Amazon Relational Database Service or in your own EC2 instance.  My blog post at http://chuckdantonio.com/blog/2011/02/running-drupal-aws-elastic-beanstalk walks you through the process.
